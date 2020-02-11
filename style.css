@@ -1,0 +1,112 @@
+body {
+    background-color: #0069BA;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+}
+
+@font-face {
+    font-family: sergoeUiv3;
+    src: url(segoelight.ttf);
+}
+
+.text1lmao {
+    color: white;
+    margin-top: 255px;
+    text-align: center;
+    font-family: sergoeUiv3;
+    animation: fadeFast 7s infinite;
+    font-weight: lighter;
+}
+
+.text2lmao {
+    color: white;
+    margin-top: 420px;
+    text-align: center;
+    font-family: sergoeUiv3;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+
+.pos{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: fade 7s forwards;
+}
+
+.almight{
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+
+.dot1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: deku 5s infinite;
+}
+.dot2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: deku 5s infinite;
+    animation-delay: .2s;
+}
+.dot3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: deku 5s infinite;
+    animation-delay: .4s;
+}
+.dot4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: deku 5s infinite;
+    animation-delay: .6s;
+}
+.dot5{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: deku 5s infinite;
+    animation-delay: .8s;
+}
+.dot6{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: deku 5s infinite;
+    animation-delay: 1s;
+}
+
+@keyframes deku {
+    0% { transform: rotate(0deg) translatey(30px);  }
+    100%{ transform: rotate(720deg) translatey(30px); }
+}
+
+@keyframes fade {
+    0% { opacity: 0; }
+    100%{ opacity: 1; }
+}
+
+@keyframes fadeFast {
+    0% { opacity: 0; }
+    50%{ opacity: 1; }
+    100% { opacity: 0; }
+}
